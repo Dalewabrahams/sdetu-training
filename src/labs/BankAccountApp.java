@@ -48,16 +48,19 @@ class BankAccount implements IInterest{
 
 	}
 	
-	private void debug() {
-		if(debug) {
-			System.out.println("iD = " + iD);
-			System.out.println("random number = " + random);
-			System.out.println("firstTwoDigits = " + firstTwoDigits);
-			System.out.println("accountNumber = " + accountNumber);
-			System.out.println("");
-			System.out.println("");
-		}
-	}
+//	private void debug() {
+//		if(debug) {
+//			System.out.println("iD = " + iD);
+//			
+//			
+//			System.out.println("random number = " + random);
+//			String firstTwoDigits;
+//			System.out.println("firstTwoDigits = " + firstTwoDigits);
+//			System.out.println("accountNumber = " + accountNumber);
+//			System.out.println("");
+//			System.out.println("");
+//		}
+//	}
 	
 	
 	public void setName(String name) {
